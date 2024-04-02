@@ -47,7 +47,7 @@ node examples/accounts.js
 ```
 
 ### read_smart_contract.js
-Reads the balance of a token wallet address from the corresponding contract.
+Reads the balance of a token wallet address from the corresponding contract fetched from etherscan.
 
 ```bash
 node examples/read_smart_contract.js
@@ -68,14 +68,14 @@ node examples/write_contract.js
 ```
 
 ### contract_event_stream.js
-Queries a block for transfer events.
+Queries a block for transfer events fetched from etherscan.
 
 ```bash
 node examples/contract_event_stream.js
 ```
 
 ### 7_inspecting_blocks.js
-Get transactions from a block.
+Get transactions from a block fetched from etherscan.
 
 ```bash
 node examples/inspecting_blocks.js
