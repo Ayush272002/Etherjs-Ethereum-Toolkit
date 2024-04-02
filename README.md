@@ -47,7 +47,7 @@ node examples/accounts.js
 ```
 
 ### read_smart_contract.js
-Reads the balance of a token wallet address from the corresponding contract fetched from etherscan.
+Reads the balance of a token wallet address from the corresponding contract fetched from etherscan (a [DAI contract](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f)).
 
 ```bash
 node examples/read_smart_contract.js
@@ -68,7 +68,7 @@ node examples/write_contract.js
 ```
 
 ### contract_event_stream.js
-Queries a block for transfer events fetched from etherscan.
+Queries a block for transfer events fetched from etherscan (a [DAI contract](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f)).
 
 ```bash
 node examples/contract_event_stream.js
