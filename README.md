@@ -74,7 +74,7 @@ Queries a block for transfer events fetched from etherscan.
 node examples/contract_event_stream.js
 ```
 
-### 7_inspecting_blocks.js
+### inspecting_blocks.js
 Get transactions from a block fetched from etherscan.
 
 ```bash
