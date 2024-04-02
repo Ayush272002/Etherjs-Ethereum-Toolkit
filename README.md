@@ -39,42 +39,42 @@ This repository contains a collection of scripts built with Ether.js library for
 
 ## Ethers.js Scripts
 
-### accounts.js
+- ### accounts.js
 Reads the balance of Ether of a wallet address.
 
 ```bash
 node examples/accounts.js
 ```
 
-### read_smart_contract.js
+- ### read_smart_contract.js
 Reads the balance of a token wallet address from the corresponding contract fetched from etherscan (a [DAI contract](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f)).
 
 ```bash
 node examples/read_smart_contract.js
 ```
 
-### send_signed_transaction.js
+- ### send_signed_transaction.js
 Transfers 0.010 Ether from `SENDER_ADDRESS` to `RECIPIENT_ADDRESS`. For testing out I've used SepoliaETH which can be seen in the test network in the metamask wallet, to get some SepoliaETH you can mine from [here](https://sepolia-faucet.pk910.de/), you just need to provide your metamask account address and it will transfer the SepoliaETH it mined.
 
 ```bash
 node examples/send_signed_transaction.js
 ```
 
-### write_contract.js
+- ### write_contract.js
 Transfers 20 tokens of a chosen token (Chain Link in this case) from `SENDER_ADDRESS` to `RECIPIENT_ADDRESS` (Ethereum Sepolia LINK). For testing purposes you can get some tokens from [here](https://faucets.chain.link/)
 
 ```bash
 node examples/write_contract.js
 ```
 
-### contract_event_stream.js
+- ### contract_event_stream.js
 Queries a block for transfer events fetched from etherscan (a [DAI contract](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f)).
 
 ```bash
 node examples/contract_event_stream.js
 ```
 
-### inspecting_blocks.js
+- ### inspecting_blocks.js
 Get transactions from a block fetched from etherscan.
 
 ```bash
