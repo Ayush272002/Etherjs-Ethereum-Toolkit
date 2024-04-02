@@ -27,14 +27,14 @@ This repository contains a collection of scripts built with Ether.js library for
 
    ```plaintext
    # Get your API key from Infura: https://infura.io/
-   API_KEY=
+   API_KEY = ''
 
    # Ethereum wallet addresses
-   SENDER_ADDRESS=
-   RECIPIENT_ADDRESS=
+   SENDER_ADDRESS = ''
+   RECIPIENT_ADDRESS = ''
 
    # Ethereum private key for sending transactions
-   SENDER_PRIVATE_KEY=
+   SENDER_PRIVATE_KEY = ''
    ```
 
 ## Ethers.js Scripts
